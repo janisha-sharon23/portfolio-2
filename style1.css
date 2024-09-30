@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Permanent+Marker&family=Pirata+One&family=Play:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+  
+    font-family: "Play", sans-serif;
+}
+
+ :root{
+    --lightclr:#fbf6e2;
+    --color-basez:#ecceae;
+    --colorBrand:#e68369;
+    --color-base2:#ffffff;
+    --lightclr:#f8e5e5;
+    --colorBrand:#c39ea4;
+    --color:#fa255e;
+ }
+ .color{
+  color: var(--color);
+ }
+ .colorbg{
+    background-color: var(--color);
+   }
+.lightbg{
+    background-color: var(--lightclr);
+}
+.light{
+   color: var(--lightclr);
+}
+.light2bg{
+background-color: var(--color-base2);
+}
+.colorBrandbg{
+    background-color: var(--colorBrand);
+}
+.colorBrand{
+  color: var(--colorBrand);
+}
+.heroImage{
+    /* display: none; */
+}
